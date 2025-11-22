@@ -1861,59 +1861,6 @@ zip2john arquivo.zip > hash.txt
 john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt.gz
 ```
 
----
-
-## Índice de Conteúdo
-
-- **Aula 01:** Criptografia Clássica, Hashes e Quebra de Senhas
-  - Cifra de César (com scripts Python)
-  - Funções de Hash (MD5, SHA-256, SHA-512)
-  - Codificação em Base64
-  - Compactação com Criptografia (ZIP)
-  - Quebra de Senha com John the Ripper
-
-- **Aula 02:** Criptografia Assimétrica e VeraCrypt
-  - Criptografia RSA com OpenSSL e Python
-  - VeraCrypt: Volumes Criptografados
-
-- **Aula 03:** Quebra de Hashes com Hashcat
-  - Hashcat: Conceitos e Uso
-  - Quebrando Hashes NTLM, MD5 e SHA-256
-  - Gerador de Chaves Criptográficas
-
-- **Aula 04:** Assinaturas Digitais e Esteganografia
-  - Assinaturas Digitais com OpenSSL
-  - Certificados Digitais
-  - Esteganografia com Steghide
-  - Quebrando Esteganografia com Stegcracker
-
-- **Aula 05:** Ataque Man-in-the-Middle e Wireshark
-  - Análise de Tráfego com Wireshark
-  - Métodos de Estabelecimento de Chave (Diffie-Hellman)
-  - Passkeys: Autenticação Moderna
-  - Comandos OpenSSL para TLS/SSL
-
-- **Apêndice A:** Tabela Comparativa de Algoritmos de Hash
-- **Apêndice B:** Referência Rápida de Comandos OpenSSL
-- **Apêndice C:** Ferramentas Essenciais do Kali Linux
-- **Apêndice D:** Troubleshooting e Soluções Comuns
-
----
-
-## Notas Finais
-
-Este playground foi desenvolvido como material educacional para fins de aprendizado e pesquisa. Todos os conceitos e ferramentas aqui apresentados devem ser utilizados **apenas em ambientes autorizados** e de acordo com as leis locais e regulamentações de segurança cibernética. O uso não autorizado de técnicas de quebra de senha, análise de tráfego ou acesso a sistemas é ilegal.
-
-**Responsabilidade:** O autor não se responsabiliza pelo uso indevido deste material. Use com ética e responsabilidade.
-
----
-
-**Documento preparado por:** Manus AI  
-**Data:** Novembro de 2025  
-**Versão:** 2.0 (Atualizado com integração de scripts, ferramentas e comandos SSL)  
-**Licença:** Educacional - Uso Livre para Fins de Aprendizado
-
----
 
 ## Apêndice E: Demonstração Prática com Servidor HTTP/HTTPS
 
@@ -2572,3 +2519,57 @@ Este script pode ser estendido de várias formas:
 - **Autenticação Real:** Implementar autenticação JWT ou sessões de cookie.
 - **HSTS:** Adicionar headers de segurança como HSTS (HTTP Strict-Transport-Security).
 
+---
+
+## Índice de Conteúdo
+
+- **Aula 01:** Criptografia Clássica, Hashes e Quebra de Senhas
+  - Cifra de César (com scripts Python)
+  - Funções de Hash (MD5, SHA-256, SHA-512)
+  - Codificação em Base64
+  - Compactação com Criptografia (ZIP)
+  - Quebra de Senha com John the Ripper
+
+- **Aula 02:** Criptografia Assimétrica e VeraCrypt
+  - Criptografia RSA com OpenSSL e Python
+  - VeraCrypt: Volumes Criptografados
+
+- **Aula 03:** Quebra de Hashes com Hashcat
+  - Hashcat: Conceitos e Uso
+  - Quebrando Hashes NTLM, MD5 e SHA-256
+  - Gerador de Chaves Criptográficas
+
+- **Aula 04:** Assinaturas Digitais e Esteganografia
+  - Assinaturas Digitais com OpenSSL
+  - Certificados Digitais
+  - Esteganografia com Steghide
+  - Quebrando Esteganografia com Stegcracker
+
+- **Aula 05:** Ataque Man-in-the-Middle e Wireshark
+  - Análise de Tráfego com Wireshark
+  - Métodos de Estabelecimento de Chave (Diffie-Hellman)
+  - Passkeys: Autenticação Moderna
+  - Comandos OpenSSL para TLS/SSL
+
+- **Apêndice A:** Tabela Comparativa de Algoritmos de Hash
+- **Apêndice B:** Referência Rápida de Comandos OpenSSL
+- **Apêndice C:** Ferramentas Essenciais do Kali Linux
+- **Apêndice D:** Troubleshooting e Soluções Comuns
+- **Apêndice E:** Demonstração Prática com Servidor HTTP/HTTPS
+
+---
+
+## Notas Finais
+
+Este playground foi desenvolvido como material educacional para fins de aprendizado e pesquisa. Todos os conceitos e ferramentas aqui apresentados devem ser utilizados **apenas em ambientes autorizados** e de acordo com as leis locais e regulamentações de segurança cibernética. O uso não autorizado de técnicas de quebra de senha, análise de tráfego ou acesso a sistemas é ilegal.
+
+**Responsabilidade:** O autor não se responsabiliza pelo uso indevido deste material. Use com ética e responsabilidade.
+
+---
+
+**Documento preparado por:** Manus AI  
+**Data:** Novembro de 2025  
+**Versão:** 2.0 (Atualizado com integração de scripts, ferramentas e comandos SSL)  
+**Licença:** Educacional - Uso Livre para Fins de Aprendizado
+
+---
