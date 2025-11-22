@@ -1808,7 +1808,7 @@ openssl s_client -connect example.com:443 -showcerts
 | `steghide` | Esteganografia | `sudo apt install steghide` | `steghide embed -cf imagem.jpg -ef arquivo.txt` |
 | `stegcracker` | Quebra de esteganografia | `sudo apt install stegcracker` | `stegcracker imagem.jpg wordlist.txt` |
 | `wireshark` | Análise de tráfego | `sudo apt install wireshark` | `wireshark` |
-| `veracrypt` | Criptografia de disco | `sudo apt install veracrypt` | `veracrypt --create volume.hc` |
+| `veracrypt` | Criptografia de disco | `https://veracrypt.io/en/Downloads.html (Debian)` | `veracrypt --create volume.hc` |
 
 ---
 
